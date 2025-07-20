@@ -1,0 +1,17 @@
+# Network configuration
+SSID = "wifiname"
+PASSWORD = "wifipassword"
+WEBHOOK_URL = "https://notibotdocs.kihtrak.com"
+
+# Hardware configuration
+ULTRASONIC_TRIGGER_PIN = 3
+ULTRASONIC_ECHO_PIN = 2
+
+# Thresholds
+DOOR_HALLWAY_WIDTH = 143  # in centimeters
+ACTIVE_RESET_PERIOD = 60  # in seconds
+ACTIVE_LOOP_THRESHOLD = 10  # in loops
+LOOP_DELAY = 0.1  # in seconds
+
+# Debugging
+DISTANCE_HISTORY_LENGTH = 0

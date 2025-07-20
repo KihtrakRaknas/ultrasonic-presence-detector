@@ -1,0 +1,54 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "6fa8e6a493a3e2f6450b690ae0af8708b9c8f2a15eb3995d8562ce05f904f083"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.11"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "micropython-rp2-pico-w-stubs": {
+            "hashes": [
+                "sha256:91ab52533620c6bc69617d5ea72d74bd96b9b70de64aec645fd26c1bc40c6659",
+                "sha256:ce2bb383baca8b95dbb93280ea0bce5e335a82aa7134af0c2be77a4a6c9f14e0"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8' and python_version < '4.0'",
+            "version": "==1.20.0.post5"
+        },
+        "micropython-rp2-stubs": {
+            "hashes": [
+                "sha256:220b309cc31be035788c8bef895649ec68be38f127e674e972c992bb80643978",
+                "sha256:e62662ae8738676f54daa2ca5498962aab61f5d18c3c5954c7a35c121ae98274"
+            ],
+            "index": "pypi",
+            "version": "==1.25.0.post3"
+        },
+        "micropython-stdlib-stubs": {
+            "hashes": [
+                "sha256:5b1faecff10f85d1cd812c13e183eb9cd99238f01af7d829995eece4c4450b3f"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.25.0"
+        },
+        "setuptools": {
+            "hashes": [
+                "sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922",
+                "sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==80.9.0"
+        }
+    },
+    "develop": {}
+}
