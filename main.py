@@ -69,7 +69,7 @@ try:
 
         if count_down_to_presence_detected == 0:
             presence_detected()
-        elif count_down_to_presence_detected > -1:
+        if count_down_to_presence_detected > -1:
             count_down_to_presence_detected -= 1
 
         sleep(config.LOOP_DELAY)
